@@ -88,4 +88,7 @@ There are also components that are android and ios specific,
 
 React Native APIs are functions/tools that allow us to add special functionality.
 For example:
-1. 
+
+1. Keyboard: https://reactnative.dev/docs/keyboard
+2. Dimensions: https://reactnative.dev/docs/dimensions
+3. Stylesheet: https://reactnative.dev/docs/stylesheet
