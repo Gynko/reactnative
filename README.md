@@ -34,3 +34,5 @@ React Native is a cross platform solution that allows us to use Javascript to ta
 # Components and views
 
 Views are the building block of the UI.
+
+![Alt text](image.png)
