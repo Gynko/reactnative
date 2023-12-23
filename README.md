@@ -7,7 +7,9 @@
   - [1.2. Other solutions](#12-other-solutions)
   - [1.3. Pros and cons](#13-pros-and-cons)
 - [2. Setup a React native project](#2-setup-a-react-native-project)
-- [3. Components and views](#3-components-and-views)
+- [3. Views](#3-views)
+  - [3.1. Components](#31-components)
+    - [3.1.1. Core components](#311-core-components)
 
 # 1. Introduction
 
@@ -35,10 +37,10 @@ React Native is a cross platform solution that allows us to use Javascript to ta
 
 # 2. Setup a React native project
 
-# 3. Components and views
+# 3. Views
 
-Views are the building block of the UI.
-They are equivalent to our Html tags, but are specialized for mobile.
+Views are the building block of the UI in React native.
+They are equivalent to our Html elements, but are specialized for mobile.
 
 Instead of this:
 
@@ -56,5 +58,22 @@ We will have
 </View>
 ```
 
-In React Native, we will use `<Image></Image>`, but under the hood, when exporting in IOS or Android, it will translate in a view that these devices can understand:
+In React Native, we will for example use the component `<Image></Image>`, but under the hood:
+
+1. When exporting in IOS RN will make it a `<UIImageView></UIImageView>`
+2. When exporting to Android, it will make it s `<ImageView></ImageView>`
+
 ![Alt text](image.png)
+
+## 3.1. Components
+
+Views are essentially components.
+There are several types:
+
+1. Core components
+2. Community components
+3. Custom components
+
+### 3.1.1. Core components
+
+Full list: https://reactnative.dev/docs/components-and-apis
