@@ -9,7 +9,7 @@
 - [2. Setup a React native project](#2-setup-a-react-native-project)
 - [3. Views](#3-views)
   - [3.1. Components](#31-components)
-    - [3.1.1. Core components](#311-core-components)
+  - [3.2. APIs](#32-apis)
 
 # 1. Introduction
 
@@ -74,6 +74,18 @@ There are several types:
 2. Community components
 3. Custom components
 
-### 3.1.1. Core components
+https://reactnative.dev/docs/components-and-apis
 
-Full list: https://reactnative.dev/docs/components-and-apis
+Basic components:
+![Alt text](image-1.png)
+
+User interface components:
+![Alt text](image-2.png)
+
+There are also components that are android and ios specific,
+
+## 3.2. APIs
+
+React Native APIs are functions/tools that allow us to add special functionality.
+For example:
+1. 
